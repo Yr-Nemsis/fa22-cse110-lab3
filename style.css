@@ -1,0 +1,74 @@
+/* Define the color of text within the span tag as red */
+span{
+    color: #FF0000;
+}
+
+img{
+    position: relative;
+    width: 41cm;
+    height: 1000px;
+    margin-top: 1mm;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 10vw;
+}
+
+.header{
+    font-size: 2em;
+    margin: auto;
+}
+
+.video{
+    margin: 50px 500px 50px 500px;
+}
+
+.audio{
+    margin: 50px 500px 50px 770px;
+}
+
+#box{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+  .joking:hover, .emotion:hover{
+      color: red;
+  }
+
+* {
+    font-family: fantasy;
+}
+
+ol[target]{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+details summary{
+    padding: 10px 10px 10px 0px;
+}
+
+details{
+    display: block;
+}
+
+main{
+    display: inline;
+}
+
+main > p{
+    max-width: 50%;
+}
+
+h3 + div{
+    color:darkred;
+    min-width: 100%;
+}
+
+hr ~ details{
+    color:red;
+}

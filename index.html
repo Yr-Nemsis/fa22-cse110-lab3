@@ -4,24 +4,38 @@
     <title>Buwei Wu's Lab 2</title>
     <meta charset="UTF-8"/>
     <link rel="icon" property="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {background-color: powderblue;}
+    </style>
   </head>
   <body>
     <header>
-        <h1>
+        <h1 style="text-align: center; text-decoration: underline;">
             Team Asuma First Brainstorm
         </h1>
     </header>
     <section>
-        <h2>
+        <h2 style="text-align: center; text-decoration: underline;">
            Thu Oct 6
         </h2>
     </section>
     <hr />
-    <main>
-        <h2>
+    <main> 
+        <h2 class="header">
             Brainstorming:
         </h2>
         <img src="./assets/BrainStorming.png" alt="Sorry!"/>
+        <h3>What is BrainStorming?</h3>
+        <p>
+            Madison Avenue advertising executive Alex Osborn developed the original approach and published it in his 1953 book, "Applied Imagination." Since then, researchers have made many improvements to his original technique. The approach described here takes this research into account, so it's subtly different from Osborn's approach. Brainstorming combines a relaxed, informal approach to problem solving with lateral thinking. It encourages people to come up with thoughts and ideas that can, at first, seem a bit crazy. Some of these ideas can be crafted into original, creative solutions to a problem, while others can spark even more ideas. This helps to get people unstuck by "jolting" them out of their normal ways of thinking. Therefore, during brainstorming sessions, people should avoid criticizing or rewarding ideas. You're trying to open up possibilities and break down incorrect assumptions about the problem's limits. Judgment and analysis at this stage stunts idea generation and limit creativity. Evaluate ideas at the end of the session – this is the time to explore solutions further, using conventional approaches.
+            (Source: https://www.mindtools.com/brainstm.html)
+        </p>
+        <h3>Why using BrainStorming?</h3>
+        <div>
+            Conventional group problem solving can often be undermined by unhelpful group behavior . 
+            And while it's important to start with a structured, analytical process when solving problems, this can lead a group to develop limited and unimaginative ideas.
+        </div>
         <h3>
             For a Brainstorming to be successfully performed, it is important to follow the rules:
         </h3>
@@ -39,8 +53,8 @@
     </main>
     <hr />
     <section>
-        <h2>Attendence List:</h2>
-        <ol>
+        <h2 class="header">Attendence List:</h2>
+        <ol target="checklist">
             <li><input type="checkbox" />Buwei Wu</li>
             <li><input type="checkbox" />Alexander G. Arias</li>
             <li><input type="checkbox" />Alexander Olsen</li>
@@ -52,35 +66,59 @@
             <li><input type="checkbox" />Xiaoyu Chen</li>
         </ol>
     </section>
+
     <hr />
-    <h2>Agenda:</h2>
+
+    <h2 class="header">Agenda:</h2>
     <div><b><span>IMPORTANT:</span> NO PROCRASTINATION</b></div>
-    <div><strong><span>MORE IMPORTANT: DEBATE IS RECOMMEDNED BUT REMEMBER TO BE FRIENDLY</span></strong></div>
+    <div><strong><span style="color:rgb(255,0,0)">MORE IMPORTANT:</span> DEBATE IS RECOMMEDNED BUT REMEMBER TO BE FRIENDLY</div></div>
     <p>
         <i>Meeting Schedule</i> is set to be on <em>Tuesday</em>
     </p>
     
     <hr />
-    <section>
-        <h2>Audio and video of the Meeting:</h2>
-        <div>
-        <audio controls>
-            <source src="./assets/download.mp3" type="audio/mpeg">
-        </audio>
+
+    <section id="box">
+        <h2 class="header">Audio and video of the Meeting:</h2>
+        <div class="audio">
+            <audio controls>
+                <source src="./assets/download.mp3" type="audio/mpeg">
+            </audio>
         </div>
-        <video controls>
-            <source src="./assets/download.mp4" type="video/webm">
-        </video>
+        <div class="video">
+            <video controls>
+                <source src="./assets/download.mp4" type="video/webm">
+            </video>
+        </div>
     </section>
+
+    <hr />
+
     <details>
         <summary>
-            Things that were unfinished from last business (in case)
+            Things that were unfinished from last business!!!
         </summary>
         <p>The division of labor and The time of next meeting</p>
     </details>
+
+    <details>
+        <summary>
+            Things that were unfinished from last business!!!
+        </summary>
+        <p>The division of labor and The time of next meeting</p>
+    </details>
+
+    <details>
+        <summary>
+            Things that were unfinished from last business!!!
+        </summary>
+        <p>The division of labor and The time of next meeting</p>
+    </details>
+
     <hr />
+
     <section>
-        <h2>
+        <h2 class="emotion">
             Emotion Check Time!
         </h2>
         <label>Choose a feeling:</label>
@@ -92,7 +130,7 @@
             <option value="Happy"></option>
             <option value="Happy"></option>
         </datalist>
-        <h2>Just Joking! Seriously this time:</h2>
+        <h2 class="joking">Just Joking! Seriously this time:</h2>
         <label>Choose a feeling:</label>
         <select name="feeling">
             <option value="Happy">Happy</option>
@@ -102,7 +140,9 @@
             <option value="Organized">Organized</option>
         </select>
     </section>
+
     <hr />
+
     <footer>
         <fieldset>
         <h4> After reading all of them and feeling it is not bad, please subscribe and click the button to thumbs up!!!</h4>
