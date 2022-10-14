@@ -1,9 +1,19 @@
+@media (hover: hover) {
+    /* … */
+}
+
+/* This CSS will apply styles only if your browser's viewport width is equal to or narrower than 1250px*/
+@media (max-width: 1250px) {
+    /* … */
+}
+
 /* Define the color of text within the span tag as red */
 span{
     color: #FF0000;
 }
 
-img{
+/* Set size and position of the image in brainstorming section */
+.image{
     position: relative;
     width: 41cm;
     height: 1000px;
@@ -16,6 +26,7 @@ img{
 .header{
     font-size: 2em;
     margin: auto;
+    position: static;
 }
 
 .video{
@@ -72,3 +83,23 @@ h3 + div{
 hr ~ details{
     color:red;
 }
+
+button:active{
+    color:blue;
+}
+
+.action-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.project-container{
+    display: inline-gird;
+    grid-template-rows: auto;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-areas: none;
+}
+
