@@ -4,7 +4,9 @@
 
 /* This CSS will apply styles only if your browser's viewport width is equal to or narrower than 1250px*/
 @media (max-width: 1250px) {
-    /* … */
+    style{
+        background-color: powderblue;
+    }
 }
 
 /* Define the color of text within the span tag as red */
