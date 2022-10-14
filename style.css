@@ -17,10 +17,10 @@ span{
 /* Set size and position of the image in brainstorming section */
 .image{
     position: relative;
-    width: 41cm;
+    width: 37cm;
     height: 1000px;
     margin-top: 1mm;
-    margin-left: 10vw;
+    margin-left: 0vw;
     margin-bottom: 5vh;
     margin-right: 10vw;
 }
@@ -32,11 +32,11 @@ span{
 }
 
 .video{
-    margin: 50px 500px 50px 500px;
+    margin: 50px 500px 50px 250px;
 }
 
 .audio{
-    margin: 50px 500px 50px 770px;
+    margin: 50px 500px 50px 500px;
 }
 
 #box{
@@ -51,7 +51,8 @@ span{
   }
 
 * {
-    font-family: fantasy;
+    font-family: 'Pacifico', cursive;
+;
 }
 
 ol[target]{
