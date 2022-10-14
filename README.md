@@ -1,1 +1,1 @@
-# Lab 2 - Starter: https://yr-nemsis.github.io/Lab2_Starter/
+# Lab 3: https://yr-nemsis.github.io/fa22-cse110-lab3/
